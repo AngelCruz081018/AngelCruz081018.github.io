@@ -17,7 +17,7 @@ export class WorkExperienceComponent implements OnInit {
             fecha: "2020-2022",
             ubicacion: "Fortin, Ver",
             puesto: "Chalan",
-            empresa: "miCasa",
+            empresa: "MiCasa",
             logros: [
               {descripcion: "Implementar una BD"},
               {descripcion: "Implementar metodologia agil"} 
