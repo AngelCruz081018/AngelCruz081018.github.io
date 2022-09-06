@@ -14,26 +14,26 @@ export class WorkExperienceComponent implements OnInit {
   ngOnInit(): void {
 
     let work1 = {
-       fecha : "2022-2023",
-       ubicacion : "MB, Fortin",
-       puesto : "estudiante",
-       empresa : "burguis le ciergs",
-       logros : [
-         {descripcion: "Nuevo S.O. "},
-         {descripcion: "Inovacon de B.D. "},
-       ]
-   
-     };
-     let work2 = {
-       fecha : "2019-2022",
-       ubicacion : "La perla",
-       puesto : "CEO",
-       empresa : "Rosas Shop",
-       logros : [
-         {descripcion: "Ponerse Mamado "},
-         {descripcion: "Inovacon de B.D. "},
-       ]
-     };
+      fecha : "2021-2023",
+      ubicacion : "Cordoba, Veracruz",
+      puesto : "CO-Founder",
+      empresa : "Sinergia",
+      logros : [
+        {descripcion: "Implementacion de BD "},
+        {descripcion: "Uso de nueva metodologia"},
+      ]
+  
+    };
+    let work2 = {
+      fecha : "2022-2024",
+      ubicacion : "FOrtin, Veracruz",
+      puesto : "Salesman",
+      empresa : "Burguis Los ciegs",
+      logros : [
+        {descripcion: "Implementacion de nueva estrategia de venta"},
+        {descripcion: "Inovacon de B.D. "},
+      ]
+    };
    
      this.workExperience.push(work1);
      this.workExperience.push(work2);
