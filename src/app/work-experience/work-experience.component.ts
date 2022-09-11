@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkExperienceComponent implements OnInit {
 
+
   constructor() { }
 
   workExperience : Array<any> = [];
@@ -14,6 +15,7 @@ export class WorkExperienceComponent implements OnInit {
   ngOnInit(): void {
 
     let work1 = {
+
        fecha : "2021-2023",
        ubicacion : "Cordoba, Veracruz",
        puesto : "CO-Founder",
@@ -34,6 +36,7 @@ export class WorkExperienceComponent implements OnInit {
          {descripcion: "Inovacon de B.D. "},
        ]
      };
+
    
      this.workExperience.push(work1);
      this.workExperience.push(work2);
